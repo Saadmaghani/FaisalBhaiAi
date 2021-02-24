@@ -1,4 +1,5 @@
 Code/.idea/*
+.idea/*
 *.pyc
 ~*
 .DS_Store

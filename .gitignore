@@ -3,3 +3,4 @@ Code/.idea/*
 *.pyc
 ~*
 .DS_Store
+Code/.ipynb_checkpoints/*

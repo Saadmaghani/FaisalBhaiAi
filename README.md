@@ -28,3 +28,8 @@
 >25/02/2021:
 1.  Need to git push everyday
 2.  continue making preprocessing bit.
+3.  Just learnt of new activation function - swish. Can do tests (later) to check if it increases accuracy.
+    Will use ReLU for now.
+4.  Finishing work for today. Made a test.ipynb which has the rough work. Ive made simple NN model with 2 hidden layers 
+    (100, 50). Need to make training, validation, testing loops.
+    

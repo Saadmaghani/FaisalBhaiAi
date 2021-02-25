@@ -23,10 +23,28 @@
 
 import pandas as pd
 import numpy as np
+from collections import Counter
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+import torch
+from torch.utils.data import Dataset, DataLoader
+import torch.optim as torch_optim
+import torch.nn as nn
+import torch.nn.functional as F
+from datetime import datetime
+
+
 
 all_data = pd.read_csv('./data/data_v1.csv')
 print("Shape:", all_data.shape)
 print(all_data.head())
+
+all_data = all_data.astype({'Arbitrator_id': 'object'})
+for col in all_data.columns:
+    if all_data.dtypes[col] == "object":
+        all_data[col] = LabelEncoder().fit_transform(all_data[col])
+
+print(all_data.Case_nature.head())
 
 
 

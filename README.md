@@ -33,3 +33,7 @@
 4.  Finishing work for today. Made a test.ipynb which has the rough work. Ive made simple NN model with 2 hidden layers 
     (100, 50). Need to make training, validation, testing loops.
     
+ 
+>01/02/2021:
+1.  Finished training, validation, testing. 
+2.  need to make one model which trains with all the training data and then put it through to testing
